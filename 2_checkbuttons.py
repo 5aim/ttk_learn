@@ -14,7 +14,7 @@ def checker():
         my_label.config(text="unchecked !")
 
 root = tb.Window(themename="darkly")
-root.title('1. label_and_button')
+root.title('2. check buttons')
 root.iconbitmap('./ttk.png')
 root.geometry('500x350')
 

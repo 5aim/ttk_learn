@@ -13,26 +13,14 @@ class AppDelegate:
 
 ########################################
 ###          Root Setting            ###
-root = tb.Window(themename="darkly")
-root.title('3. resizing button')
-root.iconbitmap('./ttk.png')
-root.geometry('500x350')
+root = tb.Window(themename="darkly") # 윈도우 데모
+root.title('') # 창 제목
+root.iconbitmap('./ttk.png') # 창 아이콘
+root.geometry('500x350') # 창 사이즈
 
 
 ########################################
-###          Resize Button           ###
-
-###          Button Style            ###
-my_style = tb.Style()
-my_style.configure('light.Outline.TButton', font=("Helvetica", 18))
-
-my_button = tb.Button(
-    style="light.Outline.TButton",
-    text="Hello World",
-    width=20, # 버튼 가로길이 조절 가능. 하지만 height는 없음.
-    bootstyle="light"
-    )
-my_button.pack(pady=40)
+###                                  ###
 
 
 ########################################
